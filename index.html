@@ -4,5 +4,28 @@
 </head>
   <body>
     This is our Shipping Form
+    <form method="post" action="https://prod-55.eastus.logic.azure.com:443/workflows/549f85e85b7b40d9a6703a65a1730b8f/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=7Jm8mHV3mLgyxl3J2NjJDCgbEvm-k3pxA9l45EtfiqU">
+        <table width="60%">
+            <tr>
+                <td width="10%">First Name:</td>
+                <td width="90%"><input type=text name="fname"></td>
+            </tr>
+            <tr>
+                <td width="10%">Last Name:</td>
+                <td width="90%"><input type=text name="lname"></td>
+            </tr>
+            <tr>
+                <td width="10%">Quantity:</td>
+                <td width="90%"><input type=text name="quantity"></td>
+            </tr>
+            <tr>
+                <td width="10%">Shipping:</td>
+                <td width="90%"><input type=text name="shipping"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type=submit label="Submit"></td>
+            </tr>
+        </tale>
+    </form>
   </body>
 </html>
